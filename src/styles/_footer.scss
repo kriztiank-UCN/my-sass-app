@@ -1,0 +1,9 @@
+// _footer.scss
+.footer {
+  /* include variable */
+  background-color: $tertiary-color;
+  /* include mixin */
+  @include flex-center;
+  height: 60px;
+  color: white;
+}

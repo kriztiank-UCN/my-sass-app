@@ -1,0 +1,9 @@
+// _content.scss
+.content {
+  /* include variable */
+  background-color: $secondary-color;
+  /* include mixin */
+  @include flex-center;
+  height: 680px;
+  color: white;
+}

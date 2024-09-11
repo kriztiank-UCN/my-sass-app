@@ -1,0 +1,9 @@
+// _header.scss
+.header {
+  /* include variable */
+  background-color: $primary-color;
+  /* include mixin */
+  @include flex-center;
+  height: 100px;
+  color: white;
+}
