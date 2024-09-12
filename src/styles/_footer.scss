@@ -6,4 +6,8 @@
   @include flex-center;
   height: 60px;
   color: white;
+  .btn {
+    // lightgrey
+    background-color: $secondary-color;
+  }
 }

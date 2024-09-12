@@ -1,6 +1,7 @@
 // src/App.js
-import Footer from "./components/Footer";
 import Header from "./components/Header";
+import Footer from "./components/Footer";
+import FooterFilters from "./components/FooterFilters";
 import "./styles/main.scss";
 
 function App() {
@@ -8,6 +9,8 @@ function App() {
     <div className="App">
       <Header />
       <main className="content">Main</main>
+      {/* Pass the isFirst prop with a dynamic value */}
+      <FooterFilters isFirst={true} />
       <Footer />
     </div>
   );

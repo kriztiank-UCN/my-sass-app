@@ -6,4 +6,8 @@
   @include flex-center;
   height: 100px;
   color: white;
+  .btn {
+    // steelblue
+    background-color: $primary-color;
+  }
 }

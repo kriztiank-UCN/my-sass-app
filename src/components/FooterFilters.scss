@@ -1,0 +1,19 @@
+.filters {
+  div {
+    // p.main-text.first {
+    //   color: #fff;
+    //   font-size: 32px;
+    //   text-align: center;
+    // }
+    p {
+      &.main-text {
+        color: #fff;
+        font-size: 32px;
+        text-align: center;
+        &.first {
+          color: red;
+        }
+      }
+    }
+  }
+}
